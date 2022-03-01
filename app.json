@@ -1,5 +1,5 @@
 {
-  "name": "MyTelegramOrgRoBot",
+  "name": "API DEVOLEPMENT BOT",
   "description": "get your APP ID and API HASH inside Telegram",
   "keywords": [
     "telegram",
@@ -8,27 +8,27 @@
     "scrapper",
     "3"
   ],
-  "repository": "https://github.com/SpEcHiDe/MyTelegramOrgRoBot",
-  "success_url": "https://telegram.dog/SpEcHlDe",
-  "website": "https://github.com/SpEcHiDe/MyTelegramOrgRoBot",
+  "repository": "https://github.com/kamarjahan/API-DEVOLEPMENT-BOT",
+  "success_url": "https://telegram.dog/septemberfilms",
+  "website": "https://github.com/kamarjahan/API-DEVOLEPMENT-BOT",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING"
     },
     "TG_BOT_TOKEN": {
-      "description": "Your bot token, as a string."
+      "description": "Your bot token, from t.me/botfather."
     },
     "URL": {
       "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
       "value": "https://example.com/"
     },
     "APP_TITLE": {
-      "description": "specify a custom app title",
+      "description": "specify a  app title",
       "required": false
     },
     "APP_SHORT_NAME": {
-      "description": "specify a custom alphamumeric shortname (5-32 characters)",
+      "description": "specify a  alphamumeric shortname (5-32 characters)",
       "required": false
     },
     "APP_URL": {
@@ -36,7 +36,7 @@
       "required": false
     },
     "APP_DESCRIPTION": {
-      "description": "specify a custom app description",
+      "description": "specify a  app description",
       "required": false
     },
     "FTEXT": {
