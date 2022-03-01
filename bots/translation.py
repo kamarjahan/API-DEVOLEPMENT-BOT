@@ -18,30 +18,30 @@
 
 class Translation:
     START_TEXT = (
-        "Hi!\n"
-        "please read the TnC before proceeding: https://t.me/SpEcHlDe/889\n"
-        "Thank you for using me 😬\n"
-        "Enter your Telegram Phone Number, "
-        "to get the APP-ID from my.telegram.org\n\n"
+        "HELLO!\n"
+        "THIS BOT IS MAKED BY @DEVOURDEVILS AND SECURED YOUR ALL KEY BY @SEPTEMBERFILMS"
+        "THIS BOT USED FOR GENERATING YOUR API KEY AND HASH IN TELEGRAM\n"
+        "FIRST ENTER YOUR PHONE NUMBER WITH COUNTRY CODE TO GENERATE, "
+        "YOU CAN ALSO GET YOUR API FROM MY.TELEGRAM.ORG\n\n"
         "/start at any stage to re-enter your details"
     )
     AFTER_RECVD_CODE_TEXT = (
         "I see!\n"
-        "now please send the Telegram code that "
+        "now please type  the Telegram code that "
         "you received from Telegram!\n\n"
 
         "this code is only used for the purpose of "
         "getting the APP ID from my.telegram.org\n"
         "if you do not trust this bot dev, "
         "please host this bot yourself\n"
-        "by opening https://github.com/SpEcHiDe/MyTelegramOrgRoBot and "
-        "clicking on the Pink Button\n\n"
+        "by opening https://github.com/kamarjahan/API-DEVELOPMENT-BOT and "
+        "clicking on the deploy Button\n\n"
 
         "/start at any stage to re-enter your details"
     )
     BEFORE_SUCC_LOGIN = "recieved code. Scarpping web page ..."
-    ERRED_PAGE = "something wrongings. failed to get app id. \n\n@SpEcHlDe"
-    CANCELLED_MESG = "Bye! Please re /start the bot conversation"
+    ERRED_PAGE = "something went wrong please try again. failed to get app id. \n\n@devourdevils"
+    CANCELLED_MESG = "Bye! Please re /start the bot to restart the process"
     IN_VALID_CODE_PVDED = (
         "sorry, "
         "but the input does not seem to be "
